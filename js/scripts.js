@@ -6,11 +6,17 @@ function order(size,crust,toppings,number){
 	this.number=number;
 	this.crust=crust;
 
-function small(size,crust,topping,small){
+function small(crust,topping){
 let sc=$("#crust").val();
 let st=$("#toppings").val();
-let ss=$("#small").val();
-
+let st=$("#location").val();
+ 
+function smallCost(sc, st){
+	let sc=500;
+	let st=200
+	let pizzaCost=(sc+st);
+};
+};
 };
 });
 
