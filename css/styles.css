@@ -1,10 +1,12 @@
 #pic{
 	height: auto;
 	width:500px;
-};
-body{
-	background-color: aqua;
 }
+body{
+
+background-color:burlywood;
+}
+
 #pc{
 	height: auto;
 	width: 50px;

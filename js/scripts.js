@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 $("#submit").click(function(){
 let sizes=$("#size").val();
 console.log(sizes)
@@ -16,6 +17,7 @@ $(".sz").append(" "+ pizzaS + " "+" " + "   "+ "   "+ " "+" KSH "+ " " + "   "+ 
 $(".cr").append(" "+ pizzaC + " "+" " + "   "+ "   "+ " "+' KSH '+ " " + "   "+ "   " + "   "+   crusts );
 $(".tp").append(" "+ pizzaT + " "+" " + "   "+ "   "+" " +" KSH " + " " + "   "+ "   "+ "   "+  toppings);
 $("#totals").append("KSH" +" "+Total);
+
 
 
 
