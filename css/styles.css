@@ -5,3 +5,11 @@
 body{
 	background-color: aqua;
 }
+#pc{
+	height: auto;
+	width: 50px;
+}
+
+#totals{
+	color:black
+}

@@ -12,10 +12,10 @@ console.log(toppings)
 let pizzaT=$("#topping option:selected").text();
 let Total= parseInt(toppings)+ parseInt(crusts) +parseInt(sizes);
 console.log(Total);
-$(".sz").append(" "+ pizzaS +" "+sizes );
-$(".cr").append(" "+ pizzaC + ''+ crusts );
-$(".tp").append(" "+ pizzaT + "" + toppings);
-$(".totals").append(Total);
+$(".sz").append(" "+ pizzaS + " "+" " + "   "+ "   "+ " "+" KSH "+ " " + "   "+ "   "+  sizes );
+$(".cr").append(" "+ pizzaC + " "+" " + "   "+ "   "+ " "+' KSH '+ " " + "   "+ "   " + "   "+   crusts );
+$(".tp").append(" "+ pizzaT + " "+" " + "   "+ "   "+" " +" KSH " + " " + "   "+ "   "+ "   "+  toppings);
+$("#totals").append("KSH" +" "+Total);
 
 
 
