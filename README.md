@@ -1,5 +1,5 @@
 # {J'z Pizzaria}
-#### {https://carolkinyua-hub.github.io/Pizzaria}, {2021}
+#### {https://carolkinyua-hub.github.io/Pizzaria/}, {2021}
 #### By **{Caroline Kinyua}**
 ## Description
 {This website allows you to order a pizza
